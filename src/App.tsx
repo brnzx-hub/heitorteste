@@ -21,13 +21,13 @@ export default function App() {
               <BrainCircuit className="w-8 h-8 text-[#FFFFFF]" />
             </div>
             <div className="flex flex-col justify-center">
-              <span className="text-2xl font-light text-[#000000] leading-none tracking-tight">Extrator de <span className="font-semibold">Essênc<span style={{ color: '#636B2F' }}>IA</span></span></span>
+              <span className="text-2xl font-light text-[#000000] leading-none tracking-tight">Extrator de <span className="font-semibold">Essênc<span style={{ color: '#636B2F' }}><strong>IA</strong></span></span></span>
               <span className="text-sm text-[#878787] leading-tight mt-1">Torne seu posicionamento único</span>
             </div>
           </div>
 
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-medium text-[#000000] leading-tight mb-4 text-center max-w-4xl mx-auto">
-            O agente que transforma o que existe dentro de você em <span className="font-bold" style={{ color: '#636B2F' }}>posicionamento claro</span> e conteúdos com identidade.
+            O agente que transforma o que existe dentro de você em <span className="font-bold" style={{ color: '#636B2F' }}>posicionamento claro</span> e <span className="font-bold" style={{ color: '#636B2F' }}>conteúdos únicos</span>.
           </h1>
 
           <p className="text-xl md:text-2xl text-[#000000] text-center mb-8 max-w-3xl mx-auto">
@@ -50,7 +50,7 @@ export default function App() {
               </div>
               <div className="flex items-center gap-3">
                 <Check className="w-6 h-6 text-[#00C950] shrink-0" strokeWidth={4} />
-                <span className="text-lg md:text-xl text-[#000000] font-medium">Para quem quer clareza do que dizer sem copiar fórmulas mágicas</span>
+                <span className="text-lg md:text-xl text-[#000000] font-medium">Para quem quer clareza do que dizer sem copiar fórmulas mágicas.</span>
               </div>
             </div>
           </div>
@@ -77,7 +77,7 @@ export default function App() {
             transition={{ duration: 0.6 }}
             className="text-3xl md:text-4xl font-bold text-center mb-16 text-[#000000]"
           >
-            Resultados reais de quem já usou o <span style={{ color: '#636B2F' }}>Extrator de Essênc<span style={{ color: '#636B2F' }}>IA</span></span>
+            Resultados reais de quem já usou o <span style={{ color: '#636B2F' }}>Extrator de Essênc<strong>IA</strong></span>
           </motion.h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -135,7 +135,7 @@ export default function App() {
             A resposta é simples: <span className="text-[#636B2F]">falta essência.</span>
           </div>
           <p className="text-gray-500 mt-6 max-w-xl mx-auto">
-            Você está criando do lado de fora para dentro. E o mercado já está cheio disso.
+            Você está criando do lado de fora para dentro.
           </p>
         </div>
       </section>
@@ -149,7 +149,8 @@ export default function App() {
           <img
             src="https://i.imgur.com/PP5wFYf.jpeg"
             alt="E se existisse um caminho diferente?"
-            className="w-full h-auto object-contain md:max-w-2xl md:mx-auto"
+            className="w-full object-cover object-top md:max-w-2xl md:mx-auto"
+            style={{ maxHeight: '420px' }}
             referrerPolicy="no-referrer"
           />
         </div>
@@ -166,9 +167,9 @@ export default function App() {
               transition={{ duration: 0.6 }}
               className="text-3xl md:text-4xl font-bold text-[#0f172a] mb-4"
             >
-              Foi exatamente para responder essas perguntas que o Extrator de Essênc<span style={{ color: '#636B2F' }}>IA</span> foi criado.
+              Foi exatamente para responder essas perguntas que o Extrator de Essênc<strong style={{ color: '#636B2F' }}>IA</strong> foi criado.
             </motion.h2>
-            <p className="text-xl text-gray-600 mt-6 max-w-2xl mx-auto">Esse agente extraia a sua essência e cria o mapa completo do seu movimento em apenas três passos.</p>
+            <p className="text-xl text-gray-600 mt-6 max-w-2xl mx-auto">Esse agente extrai a sua essência e cria o mapa completo do seu movimento em apenas três passos.</p>
           </div>
 
           <div className="space-y-12 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-[#636B2F] before:to-transparent">
@@ -180,7 +181,7 @@ export default function App() {
               </div>
               <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-6 rounded-2xl shadow-md border border-gray-100">
                 <h3 className="text-xl font-bold text-[#636B2F] mb-2">Acessar sua Essência</h3>
-                <p className="text-gray-600">Você entra no Extrator de Essência e responde perguntas que organizam o que está confuso na sua cabeça. Ideias, crenças, visão e experiências começam a ganhar forma, sem fórmulas prontas e sem precisar copiar ninguém.</p>
+                <p className="text-gray-600">Você entra no Extrator de Essência e responde perguntas que organizam o que está confuso na sua cabeça. Ideias, crenças, visão estratégica e experiências começam a ganhar forma, sem fórmulas prontas e sem precisar copiar ninguém.</p>
               </div>
             </div>
 
@@ -202,7 +203,7 @@ export default function App() {
               </div>
               <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-6 rounded-2xl shadow-md border border-gray-100">
                 <h3 className="text-xl font-bold text-[#636B2F] mb-2">Crie com Clareza e Constância</h3>
-                <p className="text-gray-600">Agora você não precisa mais decidir do zero o que dizer. Você sabe no que acredita, o que defende, sobre o que falar, como transformar em mensagem. E criar conteúdo deixa de ser um esforço e vira consequência da sua clareza. Você para de travar, para de se confundir e começa a criar conteúdo com muito mais fluidez.</p>
+                <p className="text-gray-600">Agora você não precisa mais decidir do zero o que dizer. Você sabe no que acredita, o que defende, sobre o que falar e como transformar em mensagem. Criar conteúdo deixa de ser um esforço e vira consequência da sua clareza. Você para de travar, para de se confundir e começa a criar conteúdo com muito mais fluidez.</p>
               </div>
             </div>
 
@@ -214,17 +215,17 @@ export default function App() {
       <section className="py-8 md:py-16 bg-white px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-[#0f172a]">
-            Com o <span className="text-[#0f172a]">Extrator de Essência</span> você vai conseguir:
+            Com o <span className="text-[#0f172a]">Extrator de Essênc<strong style={{ color: '#636B2F' }}>IA</strong></span> você vai conseguir:
           </h2>
 
           <div className="grid md:grid-cols-2 gap-4">
             {[
-              "Criar um posicionamento claro e impossível de confundir com o de qualquer outra pessoa",
+              "Criar um posicionamento claro e impossível de confundir com qualquer outra pessoa",
               "Produzir conteúdos que realmente representam quem você é",
-              "Gerar conteúdos que conectam com as pessoas certas",
-              "Parar de parecer igual a todo mundo",
+              "Gerar conteúdos que se conectam com as pessoas certas.",
+              "Parar de parecer igual a todo o mundo",
               "Ter clareza do que dizer e por que dizer",
-              "Criar conteúdo com mais fluidez e menos esforço mental",
+              "Criar conteúdos com mais fluidez e menos esforço mental",
               "Estruturar produtos com alma, não apenas com técnica",
               "Ter um norte claro para suas decisões estratégicas",
               "Crescer sem precisar forçar um personagem",
@@ -258,7 +259,7 @@ export default function App() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-white/80 text-center text-lg md:text-xl mb-12 md:mb-20 max-w-2xl mx-auto"
           >
-            Ao entrar no Extrator de EssêncIA
+            Ao entrar no Extrator de Essênc<strong>IA</strong>
           </motion.p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
@@ -279,13 +280,13 @@ export default function App() {
                     <Infinity className="w-10 h-10 md:w-12 md:h-12 text-white" strokeWidth={1.5} />
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-2xl md:text-4xl font-bold text-white mb-3 md:mb-4">Acesso Vitalício ao Extrator de EssêncIA</h3>
+                    <h3 className="text-2xl md:text-4xl font-bold text-white mb-3 md:mb-4">Acesso Vitalício ao Extrator de Essênc<strong>IA</strong></h3>
                     <div className="flex flex-wrap gap-2 mb-4">
                       <span className="text-white/90 bg-white/10 px-3 py-1 rounded-full text-xs font-medium uppercase tracking-wider">Uso ilimitado</span>
                       <span className="text-white/90 bg-white/10 px-3 py-1 rounded-full text-xs font-medium uppercase tracking-wider">Sem mensalidade</span>
                       <span className="text-white/90 bg-white/10 px-3 py-1 rounded-full text-xs font-medium uppercase tracking-wider">Acesso imediato</span>
                     </div>
-                    <p className="text-white/90 leading-relaxed text-base md:text-lg">O agente que <strong className="text-white font-semibold">organiza o que existe dentro de você</strong> e transforma isso em: <strong className="text-white font-semibold">posicionamento claro</strong>, <strong className="text-white font-semibold">linha de mensagem</strong>, <strong className="text-white font-semibold">direção de conteúdo</strong>, <strong className="text-white font-semibold">estrutura de produtos</strong>. Tudo a partir da sua própria essência.</p>
+                    <p className="text-white/90 leading-relaxed text-base md:text-lg">O agente que <strong className="text-white font-semibold">organiza o que existe dentro de você</strong> e transforma isso em: <strong className="text-white font-semibold">posicionamento claro,</strong> <strong className="text-white font-semibold">linha de mensagem,</strong> <strong className="text-white font-semibold">direção de conteúdo,</strong> <strong className="text-white font-semibold">estrutura de produtos.</strong> Tudo a partir da sua própria essência.</p>
                   </div>
                 </div>
               </div>
@@ -303,8 +304,8 @@ export default function App() {
                 <div className="w-16 h-16 md:w-20 md:h-20 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl flex items-center justify-center mb-6">
                   <Monitor className="w-8 h-8 md:w-10 md:h-10 text-white" strokeWidth={1.5} />
                 </div>
-                <h3 className="text-xl md:text-2xl font-bold text-white mb-3">Treinamento: Potencializando seu uso</h3>
-                <p className="text-white/85 leading-relaxed text-sm md:text-base">Uma aula rápida e prática mostrando como usar o Extrator de EssêncIA da forma correta, como interpretar o mapa gerado, e como transformar isso em posicionamento e conteúdo.</p>
+                <h3 className="text-xl md:text-2xl font-bold text-white mb-3">Treinamento Potencializando seu uso</h3>
+                <p className="text-white/85 leading-relaxed text-sm md:text-base">Uma aula rápida e prática mostrando como usar o Extrator de Essênc<strong>IA</strong> da forma correta, como interpretar o mapa gerado, e como transformar isso em posicionamento e conteúdo.</p>
               </div>
             </motion.div>
 
@@ -321,7 +322,7 @@ export default function App() {
                   <RefreshCw className="w-8 h-8 md:w-10 md:h-10 text-white" strokeWidth={1.5} />
                 </div>
                 <h3 className="text-xl md:text-2xl font-bold text-white mb-3">Atualizações Contínuas</h3>
-                <p className="text-white/85 leading-relaxed text-sm md:text-base">Você ainda leva um outro agente que, em poucos minutos, é capaz de criar conteúdos 100% alinhados com sua essência e que conectam com as pessoas certas.</p>
+                <p className="text-white/85 leading-relaxed text-sm md:text-base">Seu agente evolui junto com a tecnologia e você recebe todas as atualizações sem pagar nada a mais por isso.</p>
               </div>
             </motion.div>
 
@@ -344,7 +345,7 @@ export default function App() {
                   </div>
                   <div className="flex-1">
                     <h3 className="text-2xl md:text-4xl font-bold text-white mb-4">Agente Criador de Conteúdo</h3>
-                    <p className="text-white/95 leading-relaxed text-base md:text-lg">Em poucos minutos, crie <strong className="text-white font-semibold">conteúdos 100% alinhados com sua essência</strong>, que <strong className="text-white font-semibold">conectam com as pessoas certas</strong> e <strong className="text-white font-semibold">convertem</strong>. Gere posts, roteiros, e-mails e muito mais com a <strong className="text-white font-semibold">sua voz única</strong>.</p>
+                    <p className="text-white/95 leading-relaxed text-base md:text-lg">Você ainda leva um outro agente que, em poucos minutos, é capaz de criar conteúdos 100% alinhados com sua essência e que conectam com as pessoas certas.</p>
                   </div>
                 </div>
               </div>
@@ -364,14 +365,14 @@ export default function App() {
             <ul className="space-y-4 mb-8">
               {[
                 "Tem muito conteúdo, mas sente que falta clareza interna.",
-                "Sua comunicação perdeu força e parece igual a todo mundo.",
+                "Sua comunicação perdeu força e parece igual a de todo mundo.",
                 "Você se confunde e não consegue manter constância na produção de conteúdo.",
                 "Tem muito para dizer, mas não consegue dar forma.",
                 "Não sabe simplificar sem se sentir raso.",
                 "Seu posicionamento não fica de pé.",
-                "Cresceu, mas se perdeu no caminho e se sente drenado.",
+                "Cresceu, mas se perdeu no caminho e se sente frustrado.",
                 "Trava porque não quer parecer igual a todo mundo, mas também não sabe por onde começar.",
-                "Está cansado de receita pronta e quer clareza aplicada e verdade."
+                "Está cansado de receitas prontas e quer clareza de verdade."
               ].map((item, idx) => (
                 <li key={idx} className="flex items-start gap-3">
                   <div className="mt-1 bg-[#00C950]/20 p-1 rounded-full shrink-0">
@@ -385,9 +386,7 @@ export default function App() {
             <div className="bg-[#636B2F]/5 border border-[#636B2F]/20 rounded-xl p-6 text-center">
               <p className="text-xl font-semibold text-[#4A5023]">
                 Se você sente que tem muito para dizer, mas pouca clareza para comunicar…<br/>
-
-
-                <span className="text-[#636B2F] font-bold mt-2 block">Então o Extrator de Essência foi feito para você.</span>
+                <span className="text-[#636B2F] font-bold mt-2 block">O Extrator de Essência é para você!</span>
               </p>
             </div>
           </div>
@@ -437,7 +436,7 @@ export default function App() {
 
               <div className="text-center mb-8">
                 <p className="text-gray-500 mb-2">Tudo isso deveria custar: <span className="line-through font-semibold">R$ 888,00</span></p>
-                <p className="text-sm text-gray-600 mb-6">Mas hoje você pode ter acesso vitalício ao Extrator de EssêncIA junto com todos os bônus por um valor muito mais acessível.</p>
+                <p className="text-sm text-gray-600 mb-6">Mas hoje você pode ter acesso vitalício ao Extrator de Essênc<strong>IA</strong> junto com todos os bônus por um valor muito mais acessível.</p>
 
                 <div className="bg-green-50 border border-green-200 rounded-2xl p-6 mb-8">
                   <div className="text-sm text-green-800 font-semibold uppercase tracking-wider mb-2">Oferta Especial</div>
@@ -450,7 +449,7 @@ export default function App() {
 
                 <button className="w-full text-white text-xl font-bold py-5 px-8 rounded-xl shadow-lg transform transition hover:-translate-y-1 flex items-center justify-center gap-2" style={{ background: 'radial-gradient(circle at 50% 20%, #7a8440 0%, #636B2F 50%, #3f451b 100%)' }}>
                   <Zap className="w-6 h-6" />
-                  Sim, quero acessar agora!
+                  Quero acessar agora!
                 </button>
               </div>
 
@@ -509,7 +508,7 @@ export default function App() {
           </div>
           <div>
             <h2 className="text-3xl font-bold mb-2 text-white">Heitor Camine</h2>
-            <p className="text-yellow-300 font-medium mb-6 uppercase tracking-wider text-sm">Criador do Extrator de EssêncIA e método M.A.E</p>
+            <p className="text-yellow-300 font-medium mb-6 uppercase tracking-wider text-sm">Criador do Extrator de Essênc<strong>IA</strong> e método M.A.E</p>
             <div className="space-y-4 text-white">
               <p>
                 Heitor é mentor, estrategista e arquiteto de movimento com +14 anos de experiência nos bastidores do digital.
@@ -549,7 +548,7 @@ export default function App() {
               </div>
               <h3 className="text-xl font-bold text-[#0f172a] mb-4 uppercase tracking-wider text-sm">Opção 1: Ficar Para Trás</h3>
               <p className="text-gray-600 text-sm leading-relaxed">
-                Ignorar tudo isso. Continuar criando conteúdo que não te diferencia. Continuar copiando fórmulas prontas que não refletem quem você é. Continuar crescendo, mas sem se sentir alinhado. Continuar vendo outros crescerem com clareza enquanto você fica preso no caos. Continuar vendo o mercado passar enquanto você fica preso em fórmulas que não funcionam para você.
+                Ignorar tudo isso. Continuar criando conteúdo que não te diferencia. Continuar copiando fórmulas prontas que não refletem quem você é. Continuar crescendo, mas sem se sentir alinhado com quem você é de verdade. Continuar vendo outros crescerem com clareza enquanto você fica preso no caos. Continuar vendo o mercado passar enquanto você fica preso em fórmulas que não funcionam para você.
               </p>
             </div>
 
@@ -566,16 +565,15 @@ export default function App() {
               <div className="w-12 h-12 bg-green-50 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Check className="w-6 h-6 text-green-500" />
               </div>
-              <h3 className="text-xl font-bold text-[#0f172a] mb-4 uppercase tracking-wider text-sm">Opção 2: Começar Agora e criar uma comunicação única!</h3>
+              <h3 className="text-xl font-bold text-[#0f172a] mb-4 uppercase tracking-wider text-sm">Opção 2: Começar Agora</h3>
               <p className="text-gray-600 text-sm leading-relaxed">
-                Se conectar com a sua essência, criar o mapa completo do seu movimento, gerar conteúdos que se conectam com as pessoas certas porque estão alinhados com você. Crescer de forma verdadeira, sustentável e congruente, sem se perder no processo. Finalmente saber exatamente o que criar e por quê criar.
+                Criar uma comunicação única e conectada com a sua essência, criar o mapa completo do seu movimento, gerar conteúdos que se conectam com as pessoas certas porque estão alinhados com você. Crescer de forma verdadeira, sustentável e congruente, sem se perder no meio do processo. Finalmente saber exatamente o que criar e por quê criar.
               </p>
             </div>
           </div>
 
           <div className="mt-16 max-w-2xl mx-auto">
-            <p className="text-xl font-medium text-[#0f172a] mb-2">A escolha é sua. Mas lembre-se:</p>
-            <p className="text-xl font-bold" style={{ color: '#00C950' }}>A opção 2 é a mais inteligente e é a que você precisa.</p>
+            <p className="text-xl font-medium text-[#0f172a] mb-2">A escolha é sua. Mas lembre-se: <span className="font-bold" style={{ color: '#00C950' }}>A opção 2 é a mais inteligente e é a que você precisa.</span></p>
             <p className="text-gray-500 mt-4">Cada dia que passa sem agir é mais um dia desperdiçando o seu tempo.</p>
           </div>
         </div>
@@ -617,7 +615,7 @@ export default function App() {
         <div className="max-w-4xl mx-auto">
           <div className="flex items-center justify-center gap-2 mb-4">
             <BrainCircuit className="w-5 h-5 text-gray-600" />
-            <span className="font-bold text-gray-400">Extrator de EssêncIA</span>
+            <span className="font-bold text-gray-400">Extrator de Essênc<strong>IA</strong></span>
           </div>
           <p className="mb-4">© {new Date().getFullYear()} | Todos os Direitos Reservados</p>
           <p className="text-xs max-w-2xl mx-auto opacity-60">
