@@ -149,8 +149,7 @@ export default function App() {
           <img
             src="https://i.imgur.com/PP5wFYf.jpeg"
             alt="E se existisse um caminho diferente?"
-            className="w-full object-cover object-top md:max-w-2xl md:mx-auto"
-            style={{ maxHeight: '420px' }}
+            className="w-full h-auto object-contain md:max-w-2xl md:mx-auto md:object-cover md:object-top md:max-h-[420px]"
             referrerPolicy="no-referrer"
           />
         </div>
