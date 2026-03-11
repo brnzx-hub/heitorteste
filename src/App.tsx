@@ -427,7 +427,7 @@ export default function App() {
                 </div>
                 <div className="flex justify-between items-center border-b border-gray-100 pb-4">
                   <div className="flex items-center gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-amber-500" />
+                    <CheckCircle2 className="w-6 h-6 text-amber-500" />
                     <span className="text-gray-700 font-medium">Super Bônus: Agente Criador de Conteúdo</span>
                   </div>
                   <span className="text-gray-400 line-through">R$ 197,00</span>
@@ -590,7 +590,7 @@ export default function App() {
             <div className="text-gray-300 text-xl">ou R$ 63,50 à vista</div>
           </div>
 
-          <button className="w-full max-w-md mx-auto text-white text-xl font-bold py-5 px-8 rounded-xl shadow-lg transform transition hover:-translate-y-1 flex items-center justify-center gap-2 mb-8" style={{ background: '#636B2F' }}>
+          <button className="w-full max-w-md mx-auto text-[#3f451b] text-xl font-bold py-5 px-8 rounded-xl shadow-lg transform transition hover:-translate-y-1 flex items-center justify-center gap-2 mb-8" style={{ background: '#FFFFFF' }}>
             <Zap className="w-6 h-6" />
             É isso! Quero acessar agora!
           </button>
