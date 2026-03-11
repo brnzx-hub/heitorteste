@@ -447,10 +447,10 @@ export default function App() {
                   <div className="text-green-700 mt-2 font-medium">ou R$ 63,50 à vista</div>
                 </div>
 
-                <button className="w-full text-white text-xl font-bold py-5 px-8 rounded-xl shadow-lg transform transition hover:-translate-y-1 flex items-center justify-center gap-2" style={{ background: 'radial-gradient(circle at 50% 20%, #7a8440 0%, #636B2F 50%, #3f451b 100%)' }}>
+                <a href="https://pay.assiny.com.br/095a94/node/0hJ7yF" target="_blank" rel="noopener noreferrer" className="w-full text-white text-xl font-bold py-5 px-8 rounded-xl shadow-lg transform transition hover:-translate-y-1 flex items-center justify-center gap-2" style={{ background: 'radial-gradient(circle at 50% 20%, #7a8440 0%, #636B2F 50%, #3f451b 100%)' }}>
                   <Zap className="w-6 h-6" />
                   Quero acessar agora!
-                </button>
+                </a>
               </div>
 
               <div className="flex flex-col items-center gap-2 text-sm text-gray-500">
@@ -590,10 +590,10 @@ export default function App() {
             <div className="text-gray-300 text-xl">ou R$ 63,50 à vista</div>
           </div>
 
-          <button className="w-full max-w-md mx-auto text-[#3f451b] text-xl font-bold py-5 px-8 rounded-xl shadow-lg transform transition hover:-translate-y-1 flex items-center justify-center gap-2 mb-8" style={{ background: '#FFFFFF' }}>
+          <a href="https://pay.assiny.com.br/095a94/node/0hJ7yF" target="_blank" rel="noopener noreferrer" className="w-full max-w-md mx-auto text-[#3f451b] text-xl font-bold py-5 px-8 rounded-xl shadow-lg transform transition hover:-translate-y-1 flex items-center justify-center gap-2 mb-8" style={{ background: '#FFFFFF' }}>
             <Zap className="w-6 h-6" />
             É isso! Quero acessar agora!
-          </button>
+          </a>
 
           <div className="flex flex-col items-center gap-2 text-sm text-gray-400">
             <div className="font-bold text-white uppercase tracking-wider">ACESSO ILIMITADO ! VOCÊ SÓ PAGA UMA ÚNICA VEZ!</div>
