@@ -112,9 +112,13 @@ export default function App() {
       <section className="py-8 md:py-16 bg-white px-4">
         <div className="max-w-4xl mx-auto text-center">
           <AlertTriangle className="w-16 h-16 text-red-500 mx-auto mb-6" />
-          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-[#0f172a]">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#0f172a]">
             O Mercado te ensinou a criar conteúdo começando pelo lugar errado.
           </h2>
+
+          <p className="text-xl text-gray-500 mb-8 max-w-xl mx-auto">
+            Você está criando do lado de fora para dentro.
+          </p>
 
           <div className="bg-red-50 border border-red-100 rounded-2xl p-8 mb-8 text-left max-w-2xl mx-auto">
             <ul className="space-y-3 mb-6">
@@ -134,9 +138,6 @@ export default function App() {
           <div className="inline-block bg-[#FFFFFF] text-black px-8 py-4 rounded-xl text-xl font-bold shadow-xl">
             A resposta é simples: <span className="text-[#636B2F]">falta essência.</span>
           </div>
-          <p className="text-gray-500 mt-6 max-w-xl mx-auto">
-            Você está criando do lado de fora para dentro.
-          </p>
         </div>
       </section>
 
@@ -149,7 +150,7 @@ export default function App() {
           <img
             src="https://i.imgur.com/PP5wFYf.jpeg"
             alt="E se existisse um caminho diferente?"
-            className="w-full object-cover object-top max-h-[600px] md:max-w-2xl md:mx-auto md:max-h-[420px]"
+            className="w-full object-contain md:max-w-2xl md:mx-auto"
             referrerPolicy="no-referrer"
           />
         </div>
